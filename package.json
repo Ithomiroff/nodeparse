@@ -1,0 +1,25 @@
+{
+  "name": "nodeparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js localhost:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ithomiroff/nodeparse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ithomiroff/nodeparse/issues"
+  },
+  "homepage": "https://github.com/Ithomiroff/nodeparse#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "osmosis": "^1.1.6"
+  }
+}

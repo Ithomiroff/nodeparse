@@ -34,7 +34,7 @@ class Parser {
       async parseNews() {
             osmosis
                   .get('https://www.kinopoisk.ru/top/lists/307/')
-                  .paginate('ul.list li > a[href]', 5)
+                  .paginate('ul.list li > a[href]', 3)
                   .find('.poster')
                   .set({
                         img: 'a@href'

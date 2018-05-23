@@ -7,7 +7,13 @@ class db {
       }
 
       connect() {
-            return firebase.initializeApp(this.config);
+            let app = firebase.initializeApp(this.config);
+            return app.firestore();
+      }
+
+      readData(data) {
+            firebase.database()
+                  .ref('urls/')
       }
 }
 
